@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/Menu.cs">
     <Files>
-      <File FileName="Assets/scripts/Menu.cs" Line="23" Column="61" />
+      <File FileName="Assets/scripts/Menu.cs" Line="25" Column="53" />
+      <File FileName="Assets/variables/MenuVariables.cs" Line="9" Column="41" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

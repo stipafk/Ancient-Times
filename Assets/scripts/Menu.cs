@@ -21,6 +21,8 @@ public class Menu : MonoBehaviour {
 	    Panel.AddComponent<CanvasRenderer>();
 	    Image i = Panel.AddComponent<Image>();
 	    Panel.transform.SetParent(MenuCanvas.transform, false);
+		i.sprite = Resources.Load(PlayerPrefs.GetString("MenuBackground"), typeof(Sprite)) as Sprite;
+		Debug.Log (PlayerPrefs.GetString("MenuBackground"));
 	    
 	    // Делаем по центру и на весь экран
 	    Panel.GetComponent< RectTransform >().anchorMin = new Vector2(0, 0);
